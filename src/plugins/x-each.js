@@ -1,8 +1,8 @@
 'use strict';
-var attr        = require('attr'),
-    each        = require('foreach'),
+var attr        = require('matthewp-attr'),
+    each        = require('manuelstofer-foreach'),
     util        = require('../util'),
-    jsonpointer = require('json-pointer');
+    jsonpointer = require('manuelstofer-json-pointer');
 
 /**
  * Pflock plugin that provides the x-each syntax

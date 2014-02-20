@@ -1,8 +1,8 @@
-var each = require('foreach'),
-    attr = require('attr'),
-    event = require('event'),
+var each = require('manuelstofer-foreach'),
+    attr = require('matthewp-attr'),
+    event = require('component-event'),
     util = require('../util'),
-    jsonpointer = require('json-pointer');
+    jsonpointer = require('manuelstofer-json-pointer');
 
 /**
  * Pflock plugin: provides x-bind syntax

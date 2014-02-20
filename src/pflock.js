@@ -1,10 +1,10 @@
 /*global module*/
 
-var each        = require('foreach'),
-    event       = require('event'),
-    emitter     = require('emitter'),
-    extend      = require('extend'),
-    jsonpointer = require('json-pointer');
+var each        = require('manuelstofer-foreach'),
+    event       = require('component-event'),
+    emitter     = require('component-emitter'),
+    extend      = require('manuelstofer-extend'),
+    jsonpointer = require('manuelstofer-json-pointer');
 
 exports = module.exports = pflock;
 
